@@ -1,0 +1,48 @@
+.banner-field {
+  background: rgb(18,116,126);
+  background: linear-gradient(250deg, rgba(18,116,126,1) 33%, rgba(117,171,145,1) 49%, rgba(230,192,122,1) 65%, rgba(225,172,114,1) 80%, rgba(232,158,121,1) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 400px;
+  height: 100vh;
+  padding: 50px;
+  color: whitesmoke;
+  font-size: large;
+  font-family: system-ui;
+  font-weight: 500;
+}
+
+hr {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  width: 100px;
+  opacity: 0.7;
+}
+
+.banner-field p {
+  opacity: 0.7;
+}
+
+.banner-field a {
+  text-decoration: none;
+  line-height: 1.6;
+  color: whitesmoke;
+  opacity: 0.6;
+}
+
+.banner-field ul {
+  text-align: right;
+  width: 100px;
+  margin-top: 50px;
+  align-items: flex-end
+}
+
+.banner-field li {
+  list-style-type: none;
+}
+
+.banner-field li:hover {
+  scale: 1.1;
+  transition: 0.3s;
+}
