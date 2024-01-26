@@ -1,0 +1,32 @@
+.banner-title-main {
+  background-image: url("../../../assets/pink-clouds.jpg");
+  width: 100vh;
+  height: 370px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: whitesmoke;
+  font-weight: lighter;
+}
+
+.banner-title-main h1 {
+  font-weight: lighter;
+  font-size: 3.5em;
+}
+
+.banner-title-main section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: medium;
+  margin: 10px 0 30px 0;
+}
+
+.banner-title-main p {
+  margin-left: 10px;
+}
+
+.banner-title-main img {
+  border-radius: 100%;
+}
