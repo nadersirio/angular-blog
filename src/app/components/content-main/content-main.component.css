@@ -1,4 +1,4 @@
-.banner-main {
+.content-main {
   background-image: url("../../../assets/pink-clouds.jpg");
   background-repeat: round;
   width: 79.5vw;
@@ -11,12 +11,12 @@
   font-weight: lighter;
 }
 
-.banner-main h1 {
+.content-main h1 {
   font-weight: lighter;
   font-size: 3.5em;
 }
 
-.banner-main section {
+.content-main section {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -24,10 +24,10 @@
   margin: 10px 0 40px 0;
 }
 
-.banner-main p {
+.content-main p {
   margin-left: 10px;
 }
 
-.banner-main img {
+.content-main img {
   border-radius: 100%;
 }
