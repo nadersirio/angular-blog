@@ -1,7 +1,9 @@
 <div class="content">
   <section>
-    <h2>Jedi Academy</h2>
-    <p>I can't get involved! I've got work to do! It's not that I like the Empire, I hate it, but there's nothing I can do about it right now. It's such a long way from here. Alderaan? I'm not going to Alderaan. I've got to go home. It's late, I'm in for it as it is. Still, she's got a lot of spirit. I don't know, what do you think? As you wish. I can't get involved! I've got work to do! It's not that I like the Empire. I hate it, but there's nothing I can do about it right now. It's such a long way from here.</p>
-    <img src="../../../assets/up-movie.jpg" width="500" height="250" alt="Art of Up movie with old man and child walk on an florest">
+    <h2>{{titleBanner}}</h2>
+    <p>{{fieldContent}}</p>
+    <div *ngFor="let img of imageContent">
+      <img [src]="img.url" [width]="img.w" [height]="img.h" [alt]="img.alt">
+    </div>
   </section>
 </div>

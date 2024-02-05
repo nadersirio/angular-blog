@@ -1,4 +1,15 @@
 <div class="main-content">
   <app-menu-bar></app-menu-bar>
-  <app-content-main></app-content-main>
+  <app-content-main
+    [titleBanner]="'The Art of Pixar\'s UP'"
+    [personField]="[
+      {
+        url: '../../../assets/man-look-to-left.jpg',
+        w: '30',
+        h: '30',
+      }
+    ]"
+    [personInformations]="'Mike Duca in Found Artist on April 18, 2014'"
+  >
+  </app-content-main>
 </div>
