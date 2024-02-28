@@ -8,7 +8,6 @@ import { dataFake } from 'src/app/data/dataFake';
   styleUrls: ['./content.component.css']
 })
 export class ContentComponent {
-  @Input() Id:string = "";
   @Input() title_banner:string = ""
   @Input() user_image_info:{url:string, w:string, h:string}[] = []
   @Input() user_info:string = ""
@@ -16,7 +15,7 @@ export class ContentComponent {
   @Input() field_content:string = "";
   @Input() image_field_content: { url: string; w: string; h: string; alt: string }[] = [];
 
-  private id:string | null = "0"
+  private id:string | null = ""
   constructor (
     private route:ActivatedRoute
   ) {}
