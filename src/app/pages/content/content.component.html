@@ -1,0 +1,22 @@
+<div class="main-content">
+  <app-menu-bar></app-menu-bar>
+  <div>
+    <div class="card-notices">
+      <h1>{{title_banner}}</h1>
+      <section *ngFor="let i of user_image_info">
+        <img [src]="i.url" [width]="i.w" [height]="i.h">
+        <p>{{user_info}}</p>
+      </section>
+    </div>
+    <div class="content">
+      <section>
+        <h2>{{title_field_content}}</h2>
+        <p>{{field_content}}</p>
+        <div *ngFor="let img of image_field_content">
+          <img [src]="img.url" [width]="img.w" [height]="img.h" [alt]="img.alt">
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+

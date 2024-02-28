@@ -4,17 +4,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuBarComponent } from './shared/menu-bar/menu-bar.component';
-import { ContentMainComponent } from './components/content-main/content-main.component';
-import { FieldMainContentComponent } from './components/banner-content/field-main-content.component';
+import { CardNoticesComponent } from './components/card-notices/card-notices.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
+import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuBarComponent,
-    ContentMainComponent,
-    FieldMainContentComponent,
-    HomePageComponent
+    CardNoticesComponent,
+    HomePageComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
