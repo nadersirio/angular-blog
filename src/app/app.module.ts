@@ -7,6 +7,7 @@ import { MenuBarComponent } from './shared/menu-bar/menu-bar.component';
 import { CardNoticesComponent } from './components/card-notices/card-notices.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { ContentComponent } from './pages/content/content.component';
+import { AboutComponent } from './pages/about/about.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ContentComponent } from './pages/content/content.component';
     MenuBarComponent,
     CardNoticesComponent,
     HomePageComponent,
-    ContentComponent
+    ContentComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

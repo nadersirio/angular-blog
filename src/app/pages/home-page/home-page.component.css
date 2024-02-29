@@ -1,8 +1,19 @@
 .main-content {
   display: flex;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 900;
+  width: auto;
+  border-bottom: 1px solid black;
 }
 
 .banners {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
