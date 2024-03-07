@@ -14,7 +14,7 @@ const routes: Routes = [
     component: ContentComponent
   },
   {
-    path:'about/',
+    path:'about',
     component: AboutComponent
   }
 ];

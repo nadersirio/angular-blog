@@ -28,7 +28,6 @@ export class ContentComponent {
   setValuesToComponent(id:string | null) {
     const result = dataFake.filter(article => article.id == id)[0]
     if(result) {
-      console.log(result)
       this.title_banner = result.title_banner !== undefined ? result.title_banner : "";
       this.user_image_info = result.user_image_info !== undefined ? result.user_image_info : [];
       this.user_info = result.user_info !== undefined ? result.user_info : "";

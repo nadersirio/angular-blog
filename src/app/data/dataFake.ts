@@ -80,7 +80,7 @@ export const dataFake = [
     field_content: `"The Iron Giant" is an animated film that follows the story of a young boy named Hogarth Hughes who befriends a colossal robot from outer space in the 1950s. Set against the backdrop of Cold War paranoia, the film explores themes of friendship, understanding, and the consequences of fear. As Hogarth tries to protect the gentle giant from government agents and the military, a powerful and emotional narrative unfolds. "The Iron Giant" is celebrated for its heartfelt storytelling, unique animation style, and its powerful message about the choices we make and the impact they have on those around us.`,
     image: [
       {
-        url: '../../../assets/iron-giant.jpg',
+        url: '../../../assets/iron-giant.jpeg',
         w: '500',
         h: '250',
         alt: 'Art of Up movie with old man and child walk in a forest',
