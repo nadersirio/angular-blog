@@ -1,3 +1,7 @@
+# Project
+An blog project created with Angular based on Dribbble layout
+This is a project made with AngularJS & TypeScript, aiming to apply my knowledge obtained in language studies. The page simulates a Blog that presents synopses of some films. The Page uses page route mapping to travel between the home page, the articles page, about us, and other links about me and my social networks.
+      
 # AngularBlog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.7.
